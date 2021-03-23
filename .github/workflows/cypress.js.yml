@@ -36,7 +36,7 @@ jobs:
         group: "Semana Agilizei"
       env:
         #Passando o dashboard como uma variável de ambiente
-        CYPRESS_RECORD_KEY: $ {{ secrets.CYPRESS_RECORD_KEY }}
+        CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         
     # Upload dos arquivos gerados
     
